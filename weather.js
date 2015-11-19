@@ -4,16 +4,16 @@ $(function() {
     console.log(JSON.stringify(data));
     
     // Put your code here. Don't change any other code in this file. You will be sad.
-    var markup = "TODAY: " + data.daily.data[0].summary + 
+    var markup = "Today: " + data.daily.data[0].summary + 
                   " Today's maximum temperature is " + data.daily.data[0].apparentTemperatureMax + ". " +
-                  "Today's minimum temperature is " + data.daily.data[0].apparentTemperatureMin + 
-                  ". TOMORROW: " + data.daily.data[1].summary +
+                  "Today's minimum temperature is " + data.daily.data[0].apparentTemperatureMin + ". " +
+                  "Tomorrow: " + data.daily.data[1].summary +
                   " Tomorrow's maximum temperature is " + data.daily.data[1].apparentTemperatureMax + ". " +
-                  "Tomorrow's minimum temperature is " + data.daily.data[1].apparentTemperatureMin + 
-                  ". In 2 days: " + data.daily.data[2].summary +
+                  "Tomorrow's minimum temperature is " + data.daily.data[1].apparentTemperatureMin + ". " +
+                  "In 2 days: " + data.daily.data[2].summary +
                   " In 2 days, the maximum temparature is " + data.daily.data[2].apparentTemperatureMax +   ". " +
-                  "In 2 days, the minimum temperature is " + data.daily.data[2].apparentTemperatureMin +
-                  ". In 3 days: " + data.daily.data[3].summary +
+                  "In 2 days, the minimum temperature is " + data.daily.data[2].apparentTemperatureMin + ". " +
+                  "In 3 days: " + data.daily.data[3].summary +
                   " In 3 days, the maximum temparature is " + data.daily.data[3].apparentTemperatureMax + ". " +
                   "In 3 days, the minimum temperature is " + data.daily.data[3].apparentTemperatureMin;
     // End of your code
